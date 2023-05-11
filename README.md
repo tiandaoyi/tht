@@ -6,7 +6,6 @@
 
 ```javascript
 import { tht, thtGet, thtPost } from 'tht';
-import { tht, thtGet, thtPost } from './dist/bundle.js';
 
 (async () => {
   // Default mode
