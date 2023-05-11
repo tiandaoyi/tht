@@ -1,17 +1,30 @@
 {
   "name": "tht",
-  "version": "0.0.2-alpha",
-  "description": "",
+  "version": "0.0.2",
+  "description": "a very small HTTP request library",
   "type": "module",
   "main": "dist/bundle.js",
   "module": "dist/bundle.esm.js",
   "browser": "dist/bundle.iife.js",
+  "author": {
+    "name": "tiandaoyi",
+    "email": "daoyi2022@gmail.com"
+  },
+  "keywords": [
+    "http",
+    "request",
+    "fetch",
+    "axios",
+    "ajax",
+    "xhr"
+  ],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "node test/local-fetch.js",
     "build": "rollup --config rollup.config.js"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.0",

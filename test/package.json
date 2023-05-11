@@ -5,12 +5,13 @@
   "main": "test-fetch.js",
   "type": "module",
   "scripts": {
-    "test": "node test-fetch.js"
+    "test": "node npm-test.js",
+    "test-local": "node local-fetch.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "tht": "^0.0.1"
+    "tht": "0.0.2-alpha1"
   }
 }
