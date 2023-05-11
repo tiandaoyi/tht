@@ -1,11 +1,13 @@
 {
   "name": "tht",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha",
   "description": "",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/bundle.js",
+  "module": "dist/bundle.esm.js",
+  "browser": "dist/bundle.iife.js",
   "scripts": {
-    "test": "node test-fetch.js",
+    "test": "node test/local-fetch.js",
     "build": "rollup --config rollup.config.js"
   },
   "keywords": [],

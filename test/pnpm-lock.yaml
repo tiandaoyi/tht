@@ -1,0 +1,12 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  tht:
+    specifier: ^0.0.1
+    version: 0.0.1
+
+packages:
+
+  /tht@0.0.1:
+    resolution: {integrity: sha512-cFcwIIy4tD4L+FGhgivloR9Rlxfon0mqtQrHNQ93qd5NWtnZR6dzrNPiHOFtU1IU5lTdFKwHUWn2nwSZi/rchg==}
+    dev: false

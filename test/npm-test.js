@@ -1,4 +1,4 @@
-import { tht, thtGet, thtPost } from './dist/bundle.js';
+import { tht, thtGet, thtPost } from 'tht';
 
 (async () => {
   // default mode

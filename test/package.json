@@ -1,0 +1,16 @@
+{
+  "name": "test-online",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test-fetch.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test-fetch.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tht": "^0.0.1"
+  }
+}
