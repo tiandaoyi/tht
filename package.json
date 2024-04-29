@@ -1,6 +1,6 @@
 {
   "name": "tht",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a very small HTTP request library",
   "type": "module",
   "main": "dist/bundle.js",
@@ -9,6 +9,10 @@
   "author": {
     "name": "tiandaoyi",
     "email": "daoyi2022@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiandaoyi/tht.git"
   },
   "keywords": [
     "http",
